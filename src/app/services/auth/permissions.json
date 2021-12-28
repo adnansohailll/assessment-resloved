@@ -1,0 +1,9 @@
+[
+  "catalog.create",
+  "catalog.read",
+  "catalog.update",
+  "catalog.delete",
+  "user.create",
+  "user.update",
+  "user.delete"
+]

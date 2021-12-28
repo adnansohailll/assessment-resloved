@@ -1,0 +1,56 @@
+<h3>User Detail</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th class="label">Label</th>
+            <th class="value">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>{{userDetail.name}}</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>{{userDetail.email}}</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>{{userDetail.phone}}</td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>{{userDetail.username}}</td>
+        </tr>
+        <tr>
+            <td>Website</td>
+            <td>{{userDetail.website}}</td>
+        </tr>
+        <tr>
+            <td>Post Count</td>
+            <td>{{userDetail.postCount}}</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>{{userDetail.address.suite}} {{userDetail.address.street}} {{userDetail.address.zipcode}}</td>
+        </tr>
+        <tr>
+            <td>LatLong</td>
+            <td>{{userDetail.address.geo.lat}}, {{userDetail.address.geo.lng}}</td>
+        </tr>
+        <tr>
+            <td>Company</td>
+            <td>{{userDetail.company.name}}</td>
+        </tr>
+        <tr>
+            <td>Company bs</td>
+            <td>{{userDetail.company.bs}}</td>
+        </tr>
+        <tr>
+            <td>Company catchPhrase</td>
+            <td>{{userDetail.company.catchPhrase}}</td>
+        </tr>
+    </tbody>
+</table>

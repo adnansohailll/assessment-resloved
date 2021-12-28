@@ -1,0 +1,15 @@
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    th {
+        border:  solid 1px #ccc;
+        padding: 6px 12px;
+        width: 350px;
+    }
+
+   td {
+        border:  solid 1px #ccc;
+        padding: 6px 12px;
+    }
+}

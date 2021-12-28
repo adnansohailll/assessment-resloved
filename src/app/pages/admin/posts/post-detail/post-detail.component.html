@@ -1,0 +1,20 @@
+<h3>User Detail</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th class="label">Label</th>
+            <th class="value">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td><span routerLink="/admin/users/user-detail/{{userDetail.id}}">{{userDetail.name}}</span></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>{{userDetail.email}}</td>
+        </tr>
+    </tbody>
+</table>
